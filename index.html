@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bodyy pt-5 pb-5">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <img src="images/logo.png" alt="nav-logo" />
+          <div class="ms-1">
+            <a class="navbar-brand text-white fs-6" href="#"
+              >Weather <br />
+              tagline goes here
+            </a>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-2">
+              <a class="nav-link active px-3" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link px-3" href="#">News</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link px-3" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link px-3" href="#">Photos</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link px-3" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="home" class="pho home pb-4 overflow-hidden">
+      <div class="container-search mx-auto d-flex justify-content-center">
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <input
+          type="search"
+          placeholder="Find your location"
+          name="search"
+          id="search"
+          class="search text-white rounded-4"
+        />
+      </div>
+
+      <div class="container-xl mt-4 pt-4">
+        <div class="row g-3"></div>
+      </div>
+    </header>
+
+    <footer class="bak">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-12 mt-5">
+            <form class="position-relative">
+              <input type="text" placeholder="Enter your email to subscribe" />
+              <input class="btn btn-primary" type="submit" value="subscribe" />
+            </form>
+          </div>
+          <div class="col-md-4 col-sm-12 mt-5">
+            <div
+              class="social-links d-flex justify-content-center align-items-center"
+            >
+              <a class="me-2" href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a class="me-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a class="me-2" href="#"
+                ><i class="fa-brands fa-google-plus"></i
+              ></a>
+              <a class="me-2" href="#"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <p class="text-secondary mt-3 mb-5">
+              Copyright 2024 Made By: Eng Ahmed Abdelhamed . All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
